@@ -1,0 +1,6 @@
+sdv
+gradio
+plotly
+sdmetrics
+pandas
+numpy

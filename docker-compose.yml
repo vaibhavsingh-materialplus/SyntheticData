@@ -3,11 +3,11 @@ services:
   frontend:
     build:
       context: .
-      dockerfile: DockerFile # Tag your Speaker_Frontend image as 'frontend1'
+      dockerfile: Dockerfile 
     ports:
       - "7860:7860"
     volumes:
-    #  - /tmp:/tmp/gradio
-      - ./my_folder
+      - .:/app
+    restart: always
   
 
